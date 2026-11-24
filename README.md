@@ -44,7 +44,7 @@ CDN) qui s'ouvre dans n'importe quel navigateur.
    étiquetée, au rythme constaté en unités/jour calendaire, ancrée sur
    la dernière lecture valide ; aucune estimation si l'unité est à
    confirmer ou si les données ne suffisent pas), liste des signalements,
-   et en mode démonstration le suivi des **vidanges** (intervalle
+   et, avec le jeu de données fourni, le suivi des **vidanges** (intervalle
    réglable par engin, en heures ou en km) et des **pannes
    fréquentes**.
 
@@ -121,7 +121,7 @@ rapports/             sorties (ignoré par git)
   mois précédent (importer deux mois ou saisir la référence).
 - Les règles de seuil (24 h/jour) valent pour des compteurs horaires ;
   déclarer les compteurs kilométriques en config.
-- Le suivi des vidanges et des pannes en mode réel nécessite leurs
+- Le suivi des vidanges et des pannes avec vos propres données nécessite leurs
   données (CSV privés) : seul le pointage est importé automatiquement.
 
 ## Auteur
