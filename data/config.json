@@ -1,0 +1,906 @@
+{
+ "intervalle_vidange_h_defaut": 250,
+ "intervalle_vidange_km_defaut": 10000,
+ "engins": {
+  "CAM-001": {
+   "type_compteur": "km"
+  },
+  "CAM-002": {
+   "type_compteur": "km"
+  },
+  "CAM-003": {
+   "type_compteur": "km"
+  },
+  "CAM-004": {
+   "type_compteur": "km"
+  },
+  "CAM-005": {
+   "type_compteur": "km"
+  },
+  "CAM-006": {
+   "type_compteur": "km"
+  },
+  "CAM-007": {
+   "type_compteur": "km"
+  },
+  "CAM-008": {
+   "type_compteur": "km"
+  },
+  "CAM-009": {
+   "type_compteur": "km"
+  },
+  "CAM-010": {
+   "type_compteur": "km"
+  },
+  "CAM-011": {
+   "type_compteur": "km"
+  },
+  "CAM-012": {
+   "type_compteur": "km"
+  },
+  "CAM-013": {
+   "type_compteur": "km"
+  },
+  "CAM-014": {
+   "type_compteur": "km"
+  },
+  "CAM-015": {
+   "type_compteur": "km"
+  },
+  "CAM-016": {
+   "type_compteur": "km"
+  },
+  "CAM-017": {
+   "type_compteur": "km"
+  },
+  "CAM-018": {
+   "type_compteur": "km"
+  },
+  "CAM-019": {
+   "type_compteur": "km"
+  },
+  "CAM-020": {
+   "type_compteur": "km"
+  },
+  "CAM-021": {
+   "type_compteur": "km"
+  },
+  "CAM-022": {
+   "type_compteur": "km"
+  },
+  "CAM-023": {
+   "type_compteur": "km"
+  },
+  "CAM-024": {
+   "type_compteur": "km"
+  },
+  "CAM-025": {
+   "type_compteur": "km"
+  },
+  "CAM-026": {
+   "type_compteur": "km"
+  },
+  "CAM-027": {
+   "type_compteur": "km"
+  },
+  "CAM-028": {
+   "type_compteur": "km"
+  },
+  "CAM-029": {
+   "type_compteur": "km"
+  },
+  "CAM-030": {
+   "type_compteur": "km"
+  },
+  "CAM-031": {
+   "type_compteur": "km"
+  },
+  "CAM-032": {
+   "type_compteur": "km"
+  },
+  "CAM-033": {
+   "type_compteur": "km"
+  },
+  "CAM-034": {
+   "type_compteur": "km"
+  },
+  "CAM-035": {
+   "type_compteur": "km"
+  },
+  "CAM-036": {
+   "type_compteur": "km"
+  },
+  "CAM-037": {
+   "type_compteur": "km"
+  },
+  "CAM-038": {
+   "type_compteur": "km"
+  },
+  "CAM-039": {
+   "type_compteur": "km"
+  },
+  "CAM-040": {
+   "type_compteur": "km"
+  },
+  "CAM-041": {
+   "type_compteur": "km"
+  },
+  "CAM-042": {
+   "type_compteur": "km"
+  },
+  "CAM-043": {
+   "type_compteur": "km"
+  },
+  "CAM-044": {
+   "type_compteur": "km"
+  },
+  "CAM-045": {
+   "type_compteur": "km"
+  },
+  "CAM-046": {
+   "type_compteur": "km"
+  },
+  "CAM-047": {
+   "type_compteur": "km"
+  },
+  "CAM-048": {
+   "type_compteur": "km"
+  },
+  "CAM-049": {
+   "type_compteur": "km"
+  },
+  "CAM-050": {
+   "type_compteur": "km"
+  },
+  "CAM-051": {
+   "type_compteur": "km"
+  },
+  "CAM-052": {
+   "type_compteur": "km"
+  },
+  "CAM-053": {
+   "type_compteur": "km"
+  },
+  "CAM-054": {
+   "type_compteur": "km"
+  },
+  "CAM-055": {
+   "type_compteur": "km"
+  },
+  "CAM-056": {
+   "type_compteur": "km"
+  },
+  "CAM-057": {
+   "type_compteur": "km"
+  },
+  "CAM-058": {
+   "type_compteur": "km"
+  },
+  "CAM-059": {
+   "type_compteur": "km"
+  },
+  "CAM-060": {
+   "type_compteur": "km"
+  },
+  "CAM-061": {
+   "type_compteur": "km"
+  },
+  "CAM-062": {
+   "type_compteur": "km"
+  },
+  "CAM-063": {
+   "type_compteur": "km"
+  },
+  "CAM-064": {
+   "type_compteur": "km"
+  },
+  "CAM-065": {
+   "type_compteur": "km"
+  },
+  "CAM-066": {
+   "type_compteur": "km"
+  },
+  "CAM-067": {
+   "type_compteur": "km"
+  },
+  "CAM-068": {
+   "type_compteur": "km"
+  },
+  "CAM-069": {
+   "type_compteur": "km"
+  },
+  "CAM-070": {
+   "type_compteur": "km"
+  },
+  "CAM-071": {
+   "type_compteur": "km"
+  },
+  "CAM-072": {
+   "type_compteur": "km"
+  },
+  "CAM-073": {
+   "type_compteur": "km"
+  },
+  "CAM-074": {
+   "type_compteur": "km"
+  },
+  "CAM-075": {
+   "type_compteur": "km"
+  },
+  "CAM-076": {
+   "type_compteur": "km"
+  },
+  "CAM-077": {
+   "type_compteur": "km"
+  },
+  "CAM-078": {
+   "type_compteur": "km"
+  },
+  "CAM-079": {
+   "type_compteur": "km"
+  },
+  "CAM-080": {
+   "type_compteur": "km"
+  },
+  "CAM-081": {
+   "type_compteur": "km"
+  },
+  "CAM-082": {
+   "type_compteur": "km"
+  },
+  "CAM-083": {
+   "type_compteur": "km"
+  },
+  "CAM-084": {
+   "type_compteur": "km"
+  },
+  "CAM-085": {
+   "type_compteur": "km"
+  },
+  "CAM-086": {
+   "type_compteur": "km"
+  },
+  "CAM-087": {
+   "type_compteur": "km"
+  },
+  "CAM-088": {
+   "type_compteur": "km"
+  },
+  "CAM-089": {
+   "type_compteur": "km"
+  },
+  "CAM-090": {
+   "type_compteur": "km"
+  },
+  "CAM-091": {
+   "type_compteur": "km"
+  },
+  "CAM-092": {
+   "type_compteur": "km"
+  },
+  "CAM-093": {
+   "type_compteur": "km"
+  },
+  "CAM-094": {
+   "type_compteur": "km"
+  },
+  "CAM-095": {
+   "type_compteur": "km"
+  },
+  "CAM-096": {
+   "type_compteur": "km"
+  },
+  "CAM-097": {
+   "type_compteur": "km"
+  },
+  "CAM-098": {
+   "type_compteur": "km"
+  },
+  "CAM-099": {
+   "type_compteur": "km"
+  },
+  "CAM-100": {
+   "type_compteur": "km"
+  },
+  "CAM-101": {
+   "type_compteur": "km"
+  },
+  "CAM-102": {
+   "type_compteur": "km"
+  },
+  "CAM-103": {
+   "type_compteur": "km"
+  },
+  "CAM-104": {
+   "type_compteur": "km"
+  },
+  "CAM-105": {
+   "type_compteur": "km"
+  },
+  "CAM-106": {
+   "type_compteur": "km"
+  },
+  "CAM-107": {
+   "type_compteur": "km"
+  },
+  "CAM-108": {
+   "type_compteur": "km"
+  },
+  "CAM-109": {
+   "type_compteur": "km"
+  },
+  "CAM-110": {
+   "type_compteur": "km"
+  },
+  "CAM-111": {
+   "type_compteur": "km"
+  },
+  "CAM-112": {
+   "type_compteur": "km"
+  },
+  "CAM-113": {
+   "type_compteur": "km"
+  },
+  "CAM-114": {
+   "type_compteur": "km"
+  },
+  "CAM-115": {
+   "type_compteur": "km"
+  },
+  "CAM-116": {
+   "type_compteur": "km"
+  },
+  "CAM-117": {
+   "type_compteur": "km"
+  },
+  "CAM-118": {
+   "type_compteur": "km"
+  },
+  "CAM-119": {
+   "type_compteur": "km"
+  },
+  "CAM-120": {
+   "type_compteur": "km"
+  },
+  "CAM-121": {
+   "type_compteur": "km"
+  },
+  "CAM-122": {
+   "type_compteur": "km"
+  },
+  "CAM-123": {
+   "type_compteur": "km"
+  },
+  "CAM-124": {
+   "type_compteur": "km"
+  },
+  "CAM-125": {
+   "type_compteur": "km"
+  },
+  "CAM-126": {
+   "type_compteur": "km"
+  },
+  "CAM-127": {
+   "type_compteur": "km"
+  },
+  "CAM-128": {
+   "type_compteur": "km"
+  },
+  "CAM-129": {
+   "type_compteur": "km"
+  },
+  "CAM-130": {
+   "type_compteur": "km"
+  },
+  "CAM-131": {
+   "type_compteur": "km"
+  },
+  "CAM-132": {
+   "type_compteur": "km"
+  },
+  "CAM-133": {
+   "type_compteur": "km"
+  },
+  "CAM-134": {
+   "type_compteur": "km"
+  },
+  "CAM-135": {
+   "type_compteur": "km"
+  },
+  "CAM-136": {
+   "type_compteur": "km"
+  },
+  "CAM-137": {
+   "type_compteur": "km"
+  },
+  "CAM-138": {
+   "type_compteur": "km"
+  },
+  "CAM-139": {
+   "type_compteur": "km"
+  },
+  "CAM-140": {
+   "type_compteur": "km"
+  },
+  "CAM-141": {
+   "type_compteur": "km"
+  },
+  "CAM-142": {
+   "type_compteur": "km"
+  },
+  "CAM-143": {
+   "type_compteur": "km"
+  },
+  "CAM-144": {
+   "type_compteur": "km"
+  },
+  "CAM-145": {
+   "type_compteur": "km"
+  },
+  "CAM-146": {
+   "type_compteur": "km"
+  },
+  "CAM-147": {
+   "type_compteur": "km"
+  },
+  "CAM-148": {
+   "type_compteur": "km"
+  },
+  "CAM-149": {
+   "type_compteur": "km"
+  },
+  "CAM-150": {
+   "type_compteur": "km"
+  },
+  "CAM-151": {
+   "type_compteur": "km"
+  },
+  "CAM-152": {
+   "type_compteur": "km"
+  },
+  "CAM-153": {
+   "type_compteur": "km"
+  },
+  "CAM-154": {
+   "type_compteur": "km"
+  },
+  "CAM-155": {
+   "type_compteur": "km"
+  },
+  "CAM-156": {
+   "type_compteur": "km"
+  },
+  "CAM-157": {
+   "type_compteur": "km"
+  },
+  "CAM-158": {
+   "type_compteur": "km"
+  },
+  "CAM-159": {
+   "type_compteur": "km"
+  },
+  "CAM-160": {
+   "type_compteur": "km"
+  },
+  "CAM-161": {
+   "type_compteur": "km"
+  },
+  "CAM-162": {
+   "type_compteur": "km"
+  },
+  "CAM-163": {
+   "type_compteur": "km"
+  },
+  "CAM-164": {
+   "type_compteur": "km"
+  },
+  "CAM-165": {
+   "type_compteur": "km"
+  },
+  "CAM-166": {
+   "type_compteur": "km"
+  },
+  "CAM-167": {
+   "type_compteur": "km"
+  },
+  "CAM-168": {
+   "type_compteur": "km"
+  },
+  "CAM-169": {
+   "type_compteur": "km"
+  },
+  "CAM-170": {
+   "type_compteur": "km"
+  },
+  "CAM-171": {
+   "type_compteur": "km"
+  },
+  "CAM-172": {
+   "type_compteur": "km"
+  },
+  "CAM-173": {
+   "type_compteur": "km"
+  },
+  "CAM-174": {
+   "type_compteur": "km"
+  },
+  "CAM-175": {
+   "type_compteur": "km"
+  },
+  "CAM-176": {
+   "type_compteur": "km"
+  },
+  "CAM-177": {
+   "type_compteur": "km"
+  },
+  "CAM-178": {
+   "type_compteur": "km"
+  },
+  "CAM-179": {
+   "type_compteur": "km"
+  },
+  "CAM-180": {
+   "type_compteur": "km"
+  },
+  "CAM-181": {
+   "type_compteur": "km"
+  },
+  "CAM-182": {
+   "type_compteur": "km"
+  },
+  "CAM-183": {
+   "type_compteur": "km"
+  },
+  "CAM-184": {
+   "type_compteur": "km"
+  },
+  "CAM-185": {
+   "type_compteur": "km"
+  },
+  "CAM-186": {
+   "type_compteur": "km"
+  },
+  "CAM-187": {
+   "type_compteur": "km"
+  },
+  "CAM-188": {
+   "type_compteur": "km"
+  },
+  "CAM-189": {
+   "type_compteur": "km"
+  },
+  "CAM-190": {
+   "type_compteur": "km"
+  },
+  "CAM-191": {
+   "type_compteur": "km"
+  },
+  "CAM-192": {
+   "type_compteur": "km"
+  },
+  "CAM-193": {
+   "type_compteur": "km"
+  },
+  "CAM-194": {
+   "type_compteur": "km"
+  },
+  "CAM-195": {
+   "type_compteur": "km"
+  },
+  "CAM-196": {
+   "type_compteur": "km"
+  },
+  "CAM-197": {
+   "type_compteur": "km"
+  },
+  "CAM-198": {
+   "type_compteur": "km"
+  },
+  "CAM-199": {
+   "type_compteur": "km"
+  },
+  "CAM-200": {
+   "type_compteur": "km"
+  },
+  "CAM-201": {
+   "type_compteur": "km"
+  },
+  "CAM-202": {
+   "type_compteur": "km"
+  },
+  "CAM-203": {
+   "type_compteur": "km"
+  },
+  "CAM-204": {
+   "type_compteur": "km"
+  },
+  "CAM-205": {
+   "type_compteur": "km"
+  },
+  "CAM-206": {
+   "type_compteur": "km"
+  },
+  "CAM-207": {
+   "type_compteur": "km"
+  },
+  "CAM-208": {
+   "type_compteur": "km"
+  },
+  "CAM-209": {
+   "type_compteur": "km"
+  },
+  "CAM-210": {
+   "type_compteur": "km"
+  },
+  "CAM-211": {
+   "type_compteur": "km"
+  },
+  "CAM-212": {
+   "type_compteur": "km"
+  },
+  "CAM-213": {
+   "type_compteur": "km"
+  },
+  "CAM-214": {
+   "type_compteur": "km"
+  },
+  "CAM-215": {
+   "type_compteur": "km"
+  },
+  "CAM-216": {
+   "type_compteur": "km"
+  },
+  "CAM-217": {
+   "type_compteur": "km"
+  },
+  "CAM-218": {
+   "type_compteur": "km"
+  },
+  "CAM-219": {
+   "type_compteur": "km"
+  },
+  "CAM-220": {
+   "type_compteur": "km"
+  },
+  "CAM-221": {
+   "type_compteur": "km"
+  },
+  "CAM-222": {
+   "type_compteur": "km"
+  },
+  "CAM-223": {
+   "type_compteur": "km"
+  },
+  "CAM-224": {
+   "type_compteur": "km"
+  },
+  "CAM-225": {
+   "type_compteur": "km"
+  },
+  "CAM-226": {
+   "type_compteur": "km"
+  },
+  "CAM-227": {
+   "type_compteur": "km"
+  },
+  "CAM-228": {
+   "type_compteur": "km"
+  },
+  "CAM-229": {
+   "type_compteur": "km"
+  },
+  "CAM-230": {
+   "type_compteur": "km"
+  },
+  "CAM-231": {
+   "type_compteur": "km"
+  },
+  "CAM-232": {
+   "type_compteur": "km"
+  },
+  "CAM-233": {
+   "type_compteur": "km"
+  },
+  "CAM-234": {
+   "type_compteur": "km"
+  },
+  "CAM-235": {
+   "type_compteur": "km"
+  },
+  "CAM-236": {
+   "type_compteur": "km"
+  },
+  "CAM-237": {
+   "type_compteur": "km"
+  },
+  "CAM-238": {
+   "type_compteur": "km"
+  },
+  "CAM-239": {
+   "type_compteur": "km"
+  },
+  "CAM-240": {
+   "type_compteur": "km"
+  },
+  "CAM-241": {
+   "type_compteur": "km"
+  },
+  "CAM-242": {
+   "type_compteur": "km"
+  },
+  "CAM-243": {
+   "type_compteur": "km"
+  },
+  "CAM-244": {
+   "type_compteur": "km"
+  },
+  "CAM-245": {
+   "type_compteur": "km"
+  },
+  "CAM-246": {
+   "type_compteur": "km"
+  },
+  "CAM-247": {
+   "type_compteur": "km"
+  },
+  "CAM-248": {
+   "type_compteur": "km"
+  },
+  "CAM-249": {
+   "type_compteur": "km"
+  },
+  "CAM-250": {
+   "type_compteur": "km"
+  },
+  "CAM-251": {
+   "type_compteur": "km"
+  },
+  "CAM-252": {
+   "type_compteur": "km"
+  },
+  "CAM-253": {
+   "type_compteur": "km"
+  },
+  "CAM-254": {
+   "type_compteur": "km"
+  },
+  "CAM-255": {
+   "type_compteur": "km"
+  },
+  "CAM-256": {
+   "type_compteur": "km"
+  },
+  "CAM-257": {
+   "type_compteur": "km"
+  },
+  "CAM-258": {
+   "type_compteur": "km"
+  },
+  "CAM-259": {
+   "type_compteur": "km"
+  },
+  "CAM-260": {
+   "type_compteur": "km"
+  },
+  "CAM-261": {
+   "type_compteur": "km"
+  },
+  "CAM-262": {
+   "type_compteur": "km"
+  },
+  "CAM-263": {
+   "type_compteur": "km"
+  },
+  "CAM-264": {
+   "type_compteur": "km"
+  },
+  "CAM-265": {
+   "type_compteur": "km"
+  },
+  "CAM-266": {
+   "type_compteur": "km"
+  },
+  "CAM-267": {
+   "type_compteur": "km"
+  },
+  "CAM-268": {
+   "type_compteur": "km"
+  },
+  "CAM-269": {
+   "type_compteur": "km"
+  },
+  "CAM-270": {
+   "type_compteur": "km"
+  },
+  "CAM-271": {
+   "type_compteur": "km"
+  },
+  "CAM-272": {
+   "type_compteur": "km"
+  },
+  "CAM-273": {
+   "type_compteur": "km"
+  },
+  "CAM-274": {
+   "type_compteur": "km"
+  },
+  "CAM-275": {
+   "type_compteur": "km"
+  },
+  "CAM-276": {
+   "type_compteur": "km"
+  },
+  "CAM-277": {
+   "type_compteur": "km"
+  },
+  "CAM-278": {
+   "type_compteur": "km"
+  },
+  "CAM-279": {
+   "type_compteur": "km"
+  },
+  "CAM-280": {
+   "type_compteur": "km"
+  },
+  "CAM-281": {
+   "type_compteur": "km"
+  },
+  "CAM-282": {
+   "type_compteur": "km"
+  },
+  "CAM-283": {
+   "type_compteur": "km"
+  },
+  "CAM-284": {
+   "type_compteur": "km"
+  },
+  "CAM-285": {
+   "type_compteur": "km"
+  },
+  "CAM-286": {
+   "type_compteur": "km"
+  },
+  "CAM-287": {
+   "type_compteur": "km"
+  },
+  "CAM-288": {
+   "type_compteur": "km"
+  },
+  "CAM-289": {
+   "type_compteur": "km"
+  },
+  "CAM-290": {
+   "type_compteur": "km"
+  },
+  "CAM-291": {
+   "type_compteur": "km"
+  },
+  "CAM-292": {
+   "type_compteur": "km"
+  },
+  "CAM-293": {
+   "type_compteur": "km"
+  },
+  "CAM-294": {
+   "type_compteur": "km"
+  },
+  "CAM-295": {
+   "type_compteur": "km"
+  },
+  "CAM-296": {
+   "type_compteur": "km"
+  },
+  "CAM-297": {
+   "type_compteur": "km"
+  },
+  "CAM-298": {
+   "type_compteur": "km"
+  },
+  "CAM-299": {
+   "type_compteur": "km"
+  },
+  "CAM-300": {
+   "type_compteur": "km"
+  }
+ }
+}
