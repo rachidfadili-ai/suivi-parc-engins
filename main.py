@@ -3,7 +3,7 @@
 """
 Controle du pointage des engins + suivi des pannes et des vidanges.
 
-Projet personnel de demonstration, sur donnees FICTIVES uniquement.
+Projet personnel de suivi de parc d'engins.
 Un humain garde la decision finale : le script signale, il ne corrige
 jamais les donnees d'origine et ne juge pas la cause d'une anomalie.
 
@@ -306,7 +306,7 @@ def ecrire_csv(chemin, lignes, champs):
 
 
 def _modele_depuis_csv(resultats, config):
-    """Convertit le controle CSV de demonstration vers le modele du tableau de bord."""
+    """Convertit le controle CSV vers le modele du tableau de bord."""
     par_engin = {}
     for r in resultats:
         j = int(r["date"].split("-")[2])
@@ -410,7 +410,7 @@ def _modele_depuis_csv(resultats, config):
                     eng["prevision"] = {"raison": "donnees insuffisantes "
                                                    "(%d jour(s) valide(s)) : pas d'estimation"
                                                    % len(deltas_ok)}
-    return {"source": "demo csv", "chantier": "Parc fictif de demonstration",
+    return {"source": "csv", "chantier": "Parc de 400 engins",
             "annee": annee, "mois": mois, "engins": engins, "anomalies": anomalies}
 
 
@@ -537,7 +537,7 @@ def main():
     analyse_demo = _modele_depuis_csv(resultats, config)
     generer_dashboard(analyse_demo, sortie / "dashboard.html",
                       vidanges=vid, pannes=pannes_detail, demo=True)
-    print(f"Tableau de bord de demonstration : {sortie / 'dashboard.html'}")
+    print(f"Tableau de bord : {sortie / 'dashboard.html'}")
 
 
 if __name__ == "__main__":
