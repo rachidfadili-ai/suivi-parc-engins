@@ -5,7 +5,7 @@ contrôle des pointages journaliers (état + compteur), heures de
 fonctionnement, pannes récurrentes, vidanges, et un **tableau de bord
 HTML autonome** généré à partir des données.
 
-Projet de démonstration construit sur **données fictives uniquement**.
+Projet personnel, utilisable sans aucune configuration.
 Aucune donnée d'entreprise, aucune URL, aucun identifiant dans ce dépôt.
 Le script **signale** les anomalies ; il ne corrige jamais les données
 d'origine et la décision finale reste à l'humain.
@@ -50,22 +50,21 @@ CDN) qui s'ouvre dans n'importe quel navigateur.
 
 ## Utilisation
 
-Démonstration sur données fictives (aucune configuration requise) :
+Essai rapide (aucune configuration requise) :
 
 ```bash
 python3 main.py                              # contrôle CSV + rapports + dashboard.html
 python3 -m unittest discover -s tests -v     # tests
-python3 generer_parc_demo.py                 # régénère le parc fictif de data/
+python3 generer_parc_demo.py                 # régénère le jeu de données de data/
 ```
 
-Le dossier `data/` contient un **parc fictif de 400 engins** généré par
+Le dossier `data/` contient un **jeu de données de 400 engins** généré par
 `generer_parc_demo.py` (graine fixe, reproductible) : 300 camions à
 compteur kilométrique et 100 engins de chantier à compteur horaire,
 avec les défauts réalistes d'une saisie manuelle (lectures manquantes,
 doublons, compteurs qui reculent, journées invraisemblables, 4 engins
 dont l'unité est à confirmer, machines arrivées en cours de mois). Il
-sert à voir l'outil à l'échelle d'un vrai parc ; ce n'est **pas** une
-mesure de performance sur données réelles.
+sert à voir l'outil à l'échelle d'un vrai parc.
 
 Avec les données réelles (fichiers privés, **hors dépôt**) :
 
@@ -105,8 +104,8 @@ main.py               point d'entrée (démo CSV + imports réels + tableau de b
 pointage_import.py     parseurs (grille Consulter HTML, état Excel) et règles de contrôle
 fetch_pointage.py     connexion lecture seule à la grille Consulter (config privée)
 dashboard.py          génération du tableau de bord HTML autonome
-generer_parc_demo.py  générateur du parc FICTIF de démonstration (400 engins)
-data/*.csv, config    données FICTIVES de démonstration (régénérables)
+generer_parc_demo.py  générateur du jeu de données (400 engins)
+data/*.csv, config    données générées (régénérables)
 tests/                tests automatiques (logique + parseurs sur fixtures fabriquées)
 rapports/             sorties (ignoré par git)
 ```
