@@ -1,0 +1,141 @@
+date,code_engin,type_panne,description,duree_arret_h
+2026-11-02,CAM-179,Pneus,Usure irreguliere,1.1
+2026-11-02,CAM-214,Freinage,Fuite liquide,5.2
+2026-11-02,CAM-259,Moteur,Fumee noire,2.2
+2026-11-02,CHR-103,Freinage,Fuite liquide,6.4
+2026-11-02,EXC-119,Hydraulique,Joint de verin,3.4
+2026-11-03,CAM-023,Pneus,Crevaison,2.6
+2026-11-03,CAM-194,Pneus,Usure irreguliere,5.8
+2026-11-03,CAM-233,Electrique,Batterie HS,4.2
+2026-11-03,NIV-104,Freinage,Plaquettes usees,7.2
+2026-11-04,CAM-085,Moteur,Surchauffe,2.0
+2026-11-04,CAM-152,Hydraulique,Fuite flexible,1.6
+2026-11-04,CAM-153,Hydraulique,Fuite flexible,2.0
+2026-11-04,CHR-111,Pneus,Usure irreguliere,4.1
+2026-11-04,EXC-124,Moteur,Courroie,1.9
+2026-11-05,BUL-101,Electrique,Relais demarreur,2.0
+2026-11-05,BUL-101,Electrique,Relais demarreur,2.0
+2026-11-05,BUL-122,Freinage,Fuite liquide,4.0
+2026-11-05,CAM-007,Freinage,Plaquettes usees,1.0
+2026-11-05,CAM-030,Freinage,Plaquettes usees,0.9
+2026-11-05,CAM-089,Freinage,Plaquettes usees,5.0
+2026-11-05,CAM-208,Freinage,Fuite liquide,1.7
+2026-11-05,CAM-282,Hydraulique,Fuite flexible,3.2
+2026-11-05,CHR-101,Electrique,Alternateur,6.9
+2026-11-05,CHR-111,Moteur,Fumee noire,5.3
+2026-11-05,EXC-119,Hydraulique,Pompe lente,2.9
+2026-11-06,CAM-030,Freinage,Plaquettes usees,4.3
+2026-11-06,CAM-040,Electrique,Batterie HS,2.5
+2026-11-06,CAM-140,Electrique,Batterie HS,4.8
+2026-11-06,CAM-177,Moteur,Surchauffe,4.3
+2026-11-06,CAM-249,Moteur,Courroie,1.5
+2026-11-06,CAM-255,Electrique,Faisceau coupe,2.1
+2026-11-06,CAM-285,Hydraulique,Fuite flexible,1.7
+2026-11-06,EXC-105,Hydraulique,Fuite flexible,2.8
+2026-11-07,BUL-105,Hydraulique,Pompe lente,4.9
+2026-11-07,CAM-042,Electrique,Faisceau coupe,2.8
+2026-11-07,CAM-088,Electrique,Batterie HS,0.9
+2026-11-07,CAM-149,Moteur,Surchauffe,4.7
+2026-11-07,CAM-158,Pneus,Crevaison,5.2
+2026-11-07,CAM-223,Freinage,Fuite liquide,2.2
+2026-11-07,CAM-270,Freinage,Fuite liquide,3.7
+2026-11-07,CHR-117,Electrique,Batterie HS,1.8
+2026-11-07,CHR-130,Hydraulique,Fuite flexible,0.5
+2026-11-07,EXC-110,Electrique,Faisceau coupe,4.9
+2026-11-07,NIV-106,Electrique,Batterie HS,3.4
+2026-11-07,NIV-106,Hydraulique,Fuite flexible,2.6
+2026-11-08,CHR-110,Moteur,Saisie incoherente,-3.0
+2026-11-09,BUL-125,Pneus,Crevaison,2.9
+2026-11-09,CAM-040,Electrique,Batterie HS,3.7
+2026-11-09,CAM-135,Moteur,Fumee noire,3.2
+2026-11-09,CAM-223,Freinage,Fuite liquide,2.7
+2026-11-09,CAM-253,Electrique,Faisceau coupe,5.6
+2026-11-09,EXC-119,Freinage,Plaquettes usees,2.3
+2026-11-10,BUL-118,Electrique,Batterie HS,0.7
+2026-11-10,CAM-042,Freinage,Plaquettes usees,1.3
+2026-11-10,CAM-105,Freinage,Plaquettes usees,1.7
+2026-11-10,CAM-129,Moteur,Fumee noire,5.2
+2026-11-10,CAM-208,Pneus,Crevaison,5.7
+2026-11-10,CAM-292,Pneus,Usure irreguliere,5.7
+2026-11-10,CAM-297,Pneus,Usure irreguliere,2.0
+2026-11-10,EXC-121,Pneus,Usure irreguliere,2.7
+2026-11-11,CAM-016,Moteur,Surchauffe,5.6
+2026-11-11,CAM-084,Moteur,Fumee noire,1.3
+2026-11-11,CAM-088,Electrique,Alternateur,5.6
+2026-11-11,CAM-140,Moteur,Fumee noire,3.1
+2026-11-11,CAM-152,Electrique,Faisceau coupe,5.7
+2026-11-11,CAM-195,Electrique,Faisceau coupe,1.3
+2026-11-11,CAM-212,Moteur,Surchauffe,4.9
+2026-11-11,CAM-285,Electrique,Alternateur,4.9
+2026-11-11,CAM-297,Pneus,Usure irreguliere,4.6
+2026-11-11,CHR-130,Freinage,Plaquettes usees,7.6
+2026-11-11,EXC-118,Pneus,Usure irreguliere,0.9
+2026-11-11,EXC-124,Moteur,Fumee noire,0.9
+2026-11-11,NIV-106,Pneus,Usure irreguliere,6.2
+2026-11-12,BUL-123,Electrique,Batterie HS,1.0
+2026-11-12,CAM-052,Pneus,Usure irreguliere,2.1
+2026-11-12,CAM-244,Pneus,Crevaison,3.4
+2026-11-12,CAM-298,Moteur,Courroie,0.6
+2026-11-12,CHR-106,Electrique,Alternateur,4.0
+2026-11-12,EXC-105,Hydraulique,Fuite flexible,4.0
+2026-11-13,BUL-125,Electrique,Faisceau coupe,5.9
+2026-11-13,CAM-022,Moteur,Fumee noire,1.6
+2026-11-13,CAM-034,Moteur,Surchauffe,1.2
+2026-11-13,CAM-214,Pneus,Crevaison,3.8
+2026-11-13,CHR-112,Pneus,Usure irreguliere,7.6
+2026-11-14,CAM-011,Electrique,Alternateur,2.4
+2026-11-14,CAM-063,Freinage,Fuite liquide,3.7
+2026-11-14,CAM-068,Pneus,Usure irreguliere,3.2
+2026-11-14,CAM-153,Freinage,Plaquettes usees,2.1
+2026-11-14,CAM-166,Electrique,Batterie HS,4.8
+2026-11-14,CAM-241,Pneus,Crevaison,5.0
+2026-11-16,BUL-104,Freinage,Plaquettes usees,1.7
+2026-11-16,BUL-110,Pneus,Usure irreguliere,1.0
+2026-11-16,CAM-127,Hydraulique,Fuite flexible,3.4
+2026-11-16,CAM-179,Electrique,Alternateur,2.6
+2026-11-16,CAM-212,Electrique,Alternateur,5.1
+2026-11-16,CAM-282,Freinage,Plaquettes usees,3.6
+2026-11-17,BUL-110,Hydraulique,Joint de verin,1.3
+2026-11-17,BUL-122,Electrique,Faisceau coupe,3.2
+2026-11-17,BUL-123,Electrique,Alternateur,4.6
+2026-11-17,CAM-020,Moteur,Fumee noire,5.6
+2026-11-17,CAM-071,Hydraulique,Pompe lente,1.0
+2026-11-17,CAM-089,Moteur,Courroie,1.5
+2026-11-17,CAM-131,Freinage,Fuite liquide,3.3
+2026-11-17,CAM-135,Pneus,Crevaison,3.8
+2026-11-17,CAM-173,Moteur,Courroie,0.8
+2026-11-17,EXC-124,Moteur,Fumee noire,5.7
+2026-11-18,BUL-124,Hydraulique,Joint de verin,5.2
+2026-11-18,CAM-072,Electrique,Faisceau coupe,2.4
+2026-11-18,CAM-085,Hydraulique,Fuite flexible,2.7
+2026-11-18,CAM-144,Freinage,Fuite liquide,5.1
+2026-11-18,CAM-193,Pneus,Crevaison,4.9
+2026-11-18,CAM-238,Moteur,Courroie,5.8
+2026-11-18,CAM-259,Pneus,Crevaison,3.6
+2026-11-18,CHR-120,Hydraulique,Pompe lente,7.5
+2026-11-18,EXC-104,Pneus,Usure irreguliere,6.0
+2026-11-19,BUL-104,Hydraulique,Pompe lente,1.8
+2026-11-19,BUL-119,Hydraulique,Joint de verin,7.2
+2026-11-19,BUL-123,Pneus,Usure irreguliere,2.2
+2026-11-19,CAM-119,Moteur,Courroie,2.6
+2026-11-19,CAM-177,Pneus,Crevaison,2.6
+2026-11-19,CAM-241,Electrique,Batterie HS,4.4
+2026-11-19,CHR-103,Moteur,Fumee noire,7.2
+2026-11-19,CHR-106,Pneus,Usure irreguliere,1.4
+2026-11-19,EXC-112,Pneus,Usure irreguliere,6.1
+2026-11-20,BUL-118,Hydraulique,Fuite flexible,1.4
+2026-11-20,CAM-058,Hydraulique,Joint de verin,0.8
+2026-11-20,CAM-068,Pneus,Crevaison,4.9
+2026-11-20,CAM-072,Moteur,Fumee noire,1.9
+2026-11-20,CAM-074,Pneus,Usure irreguliere,3.1
+2026-11-20,CAM-173,Moteur,Surchauffe,4.6
+2026-11-20,CAM-195,Freinage,Plaquettes usees,4.9
+2026-11-20,CHR-112,Electrique,Batterie HS,1.9
+2026-11-20,CHR-112,Pneus,Crevaison,7.0
+2026-11-20,EXC-112,Freinage,Fuite liquide,6.9
+2026-11-21,CAM-036,Freinage,Fuite liquide,1.7
+2026-11-21,CAM-166,Hydraulique,Pompe lente,5.6
+2026-11-21,CAM-175,Electrique,Batterie HS,3.4
+2026-11-21,CAM-175,Pneus,Usure irreguliere,3.1
+2026-11-21,CAM-298,Hydraulique,Joint de verin,1.6
+2026-11-21,CHR-114,Freinage,Fuite liquide,7.8
