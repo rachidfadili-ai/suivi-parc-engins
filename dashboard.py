@@ -124,7 +124,7 @@ select{padding:5px 8px;border:1px solid var(--ligne);border-radius:6px;font-size
 <header>
   <h1>Suivi de parc engins</h1>
   <span class="sous" id="periode"></span>
-  <span class="badge-demo" id="demo" style="display:none">DONNEES FICTIVES - DEMO</span>
+  <span class="badge-demo" id="demo" style="display:none">JEU DE DONNEES GENERE</span>
   <div class="note">Projet personnel de Rachid Fadili (rachidfadili2002@outlook.com) - concu a partir de son experience terrain dans le suivi d'engins de chantier.</div>
 </header>
 <div class="cartes" id="kpis"></div>
