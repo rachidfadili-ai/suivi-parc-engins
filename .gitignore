@@ -1,0 +1,6 @@
+__pycache__/
+rapports/
+*.pyc
+*.xlsx
+config.local.json
+data_prive/
