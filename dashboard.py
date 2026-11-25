@@ -67,8 +67,8 @@ _GABARIT = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Suivi de parc engins - Tableau de bord</title>
 <style>
-:root{--fond:#f4f6fa;--carte:#fff;--encre:#1c2434;--doux:#67718a;--ligne:#e3e8f0;
---accent:#2563eb;--ok:#16a34a;--info:#0284c7;--warn:#d97706;--bad:#dc2626;--sb:#3DA5D9;--e:#eab308;--f:#94a3b8}
+:root{--fond:#0e1424;--carte:#17203a;--encre:#e8edf7;--doux:#9aa7c2;--ligne:#263156;
+--accent:#4f8cff;--ok:#22c55e;--info:#38bdf8;--warn:#f59e0b;--bad:#ef4444;--sb:#38bdf8;--e:#facc15;--f:#64748b}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--fond);color:var(--encre);padding:18px}
 header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px}
@@ -118,6 +118,30 @@ select{padding:5px 8px;border:1px solid var(--ligne);border-radius:6px;font-size
 .pager{display:flex;gap:8px;align-items:center;margin-top:8px;font-size:12px;color:var(--doux)}
 .pager button{padding:3px 10px;border:1px solid var(--ligne);border-radius:6px;background:#fff;cursor:pointer;font-size:12px}
 .pager button:disabled{opacity:.4;cursor:default}
+
+/* theme sombre + bandeau engins (SVG embarque, aucun fichier externe) */
+body{padding:0}
+body::before{content:"";display:block;height:210px;
+background:linear-gradient(180deg,#1b2a52 0%,#27408b 55%,#3b5bb5 100%)}
+header,.cartes,.section,.note,footer{margin-left:22px;margin-right:22px}
+header{margin-top:-190px;position:relative;z-index:2;
+background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjIyMCIgdmlld0JveD0iMCAwIDE2MDAgMjIwIj4KPGcgZmlsbD0iIzBiMTIyNiI+CjxyZWN0IHg9IjAiIHk9IjE5MCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMzAiLz4KPGc+CjxyZWN0IHg9IjYwIiB5PSIxMjAiIHdpZHRoPSIxNTAiIGhlaWdodD0iNTUiIHJ4PSI2Ii8+CjxwYXRoIGQ9Ik0yMTAgMTc1IHYtNzAgaDU1IGwzNSAzNSB2MzUgeiIvPgo8cmVjdCB4PSIyMjUiIHk9IjExNSIgd2lkdGg9IjI4IiBoZWlnaHQ9IjIyIiByeD0iMyIgZmlsbD0iIzBiMTIyNiIvPgo8Y2lyY2xlIGN4PSI5NSIgY3k9IjE4NSIgcj0iMjIiLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxODUiIHI9IjIyIi8+PGNpcmNsZSBjeD0iMjQ1IiBjeT0iMTg1IiByPSIyMiIvPgo8Y2lyY2xlIGN4PSI5NSIgY3k9IjE4NSIgcj0iOSIgZmlsbD0iIzFjMmE0YSIvPjxjaXJjbGUgY3g9IjE4NSIgY3k9IjE4NSIgcj0iOSIgZmlsbD0iIzFjMmE0YSIvPjxjaXJjbGUgY3g9IjI0NSIgY3k9IjE4NSIgcj0iOSIgZmlsbD0iIzFjMmE0YSIvPgo8cGF0aCBkPSJNNjAgMTIwIGgxNTAgbC0xMiAtMjggaC0xMjYgeiIvPgo8L2c+CjxnPgo8cmVjdCB4PSI0MzAiIHk9IjE1MCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIzMiIgcng9IjE0Ii8+CjxyZWN0IHg9IjQ1NSIgeT0iMTEyIiB3aWR0aD0iNjAiIGhlaWdodD0iNDIiIHJ4PSI2Ii8+CjxwYXRoIGQ9Ik01MTUgMTMwIEw2MDAgODggTDY0MCA5NiBMNTYwIDE0MCBaIi8+CjxwYXRoIGQ9Ik02MDAgODggTDY2OCAxMzAgTDY2MCAxNDIgTDYzMiAxMDAgWiIvPgo8cGF0aCBkPSJNNjYwIDE0MiBxMTggMTAgNiAyNiBsLTI0IDQgcTE0IC0xNiA2IC0zMCB6Ii8+CjxjaXJjbGUgY3g9IjQ3MCIgY3k9IjE4NiIgcj0iMTYiLz48Y2lyY2xlIGN4PSI1MTUiIGN5PSIxODYiIHI9IjE2Ii8+CjwvZz4KPGc+CjxyZWN0IHg9Ijc2MCIgeT0iNjAiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxMzAiLz4KPHBhdGggZD0iTTc2NyAzMCBMOTgwIDg0IEw5NzUgOTIgTDc2NyA0OCBaIi8+CjxwYXRoIGQ9Ik03NjcgMzAgTDcxMiA3OCBMNzIwIDg2IEw3NjcgNDggWiIvPgo8cmVjdCB4PSI3MDAiIHk9Ijc4IiB3aWR0aD0iMjIiIGhlaWdodD0iMTYiLz4KPGxpbmUgeDE9Ijk1MCIgeTE9Ijg2IiB4Mj0iOTUwIiB5Mj0iMTUwIiBzdHJva2U9IiMwYjEyMjYiIHN0cm9rZS13aWR0aD0iNSIvPgo8cmVjdCB4PSI5MzgiIHk9IjE1MCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjE4IiByeD0iMyIvPgo8cmVjdCB4PSI3NDIiIHk9IjE5MCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjEwIi8+CjwvZz4KPGcgb3BhY2l0eT0iMC44NSI+CjxyZWN0IHg9IjEwNTAiIHk9IjE0MCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSI0NCIgcng9IjUiLz4KPHBhdGggZD0iTTExNzAgMTg0IHYtNTYgaDQ0IGwyOCAyOCB2MjggeiIvPgo8Y2lyY2xlIGN4PSIxMDgwIiBjeT0iMTkyIiByPSIxNyIvPjxjaXJjbGUgY3g9IjExNTAiIGN5PSIxOTIiIHI9IjE3Ii8+PGNpcmNsZSBjeD0iMTIxOCIgY3k9IjE5MiIgcj0iMTciLz4KPHBhdGggZD0iTTEwNTAgMTQwIGgxMjAgbC0xMCAtMjIgaC0xMDAgeiIvPgo8L2c+CjxnPgo8cmVjdCB4PSIxMzMwIiB5PSIxNTAiIHdpZHRoPSI5MCIgaGVpZ2h0PSIzNCIgcng9IjgiLz4KPHJlY3QgeD0iMTM2MCIgeT0iMTE4IiB3aWR0aD0iNDAiIGhlaWdodD0iMzYiIHJ4PSI1Ii8+CjxwYXRoIGQ9Ik0xMzMwIDE2MCBMMTI3MCAxNTAgTDEyNjYgMTY4IEwxMzMwIDE3NiBaIi8+CjxwYXRoIGQ9Ik0xMjcwIDE1MCBxLTIyIDQgLTE4IDI4IGwyMCAyIHEtNiAtMTYgNiAtMjQgeiIvPgo8Y2lyY2xlIGN4PSIxMzUyIiBjeT0iMTkwIiByPSIxOCIvPjxjaXJjbGUgY3g9IjE0MDgiIGN5PSIxOTAiIHI9IjE4Ii8+CjxjaXJjbGUgY3g9IjEzNTIiIGN5PSIxOTAiIHI9IjciIGZpbGw9IiMxYzJhNGEiLz48Y2lyY2xlIGN4PSIxNDA4IiBjeT0iMTkwIiByPSI3IiBmaWxsPSIjMWMyYTRhIi8+CjwvZz4KPC9nPgo8L3N2Zz4=) bottom center/cover no-repeat;
+border-radius:14px;padding:26px 24px 20px;color:#fff;
+box-shadow:0 8px 30px rgba(2,6,23,.45)}
+h1{font-size:26px;letter-spacing:.3px;text-shadow:0 2px 8px rgba(2,6,23,.6)}
+header .sous{color:#cdd8f0}
+.badge-demo{background:rgba(250,204,21,.18);color:#fde68a;border-color:#f59e0b}
+.carte,.section{background:rgba(23,32,58,.92);box-shadow:0 4px 18px rgba(2,6,23,.35)}
+.carte .v{color:#fff}
+h2{color:#fff}
+thead th{background:#1f2a4a;color:#dbe4f5}
+th,td{border-color:#263156}
+.codecol{background:#1a2440;color:#e8edf7}
+.ev{background:#232f52;color:#41508a}
+select,.filtres input{background:#0e1424;color:#e8edf7;border-color:#31406b}
+.pager button{background:#0e1424;color:#e8edf7;border-color:#31406b}
+.bar:hover,.bar.actif{background:#2f6bff}
+.bars{border-color:#31406b}
 </style>
 </head>
 <body>
