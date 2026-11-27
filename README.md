@@ -50,15 +50,21 @@ CDN) qui s'ouvre dans n'importe quel navigateur.
 
 ## Utilisation
 
-Essai rapide (aucune configuration requise) :
+Depuis la racine du dépôt, générez d’abord les données fictives :
 
 ```bash
-python3 main.py                              # contrôle CSV + rapports + dashboard.html
-python3 -m unittest discover -s tests -v     # tests
-python3 generer_parc.py                 # régénère le jeu de données de data/
+python generer_parc.py
+python main.py
+python -m unittest discover -s tests -v
 ```
 
-Le dossier `data/` contient un **jeu de données de 400 engins** généré par
+Ouvrez ensuite `rapports/dashboard.html` dans votre navigateur. Sur les systèmes
+où la commande Python s’appelle `python3`, utilisez-la pour ces trois commandes.
+
+Le générateur écrit dans `data/`. Conservez vos données réelles dans un dossier
+distinct, hors du dépôt, pour éviter de les écraser en relançant la démo.
+
+Le jeu de données de **400 engins** est généré par
 `generer_parc.py` (graine fixe, reproductible) : 300 camions à
 compteur kilométrique et 100 engins de chantier à compteur horaire,
 avec les défauts réalistes d'une saisie manuelle (lectures manquantes,
@@ -94,8 +100,8 @@ python3 main.py --excel FichePointage.xlsx --annee 2026 --mois 11
 Le script se contente de lire : il n'écrit, ne modifie ni ne supprime
 jamais rien sur le site. Les fichiers téléchargés et les rapports
 générés (`rapports/`, `*.xlsx`, `data_prive/`) sont également ignorés
-par git : **aucune donnée de l'entreprise ne peut finir dans le dépôt
-ou sur GitHub**.
+par les règles de `.gitignore` aux emplacements indiqués. Conservez les exports
+réels hors du dépôt et vérifiez les fichiers préparés avant chaque commit.
 
 ## Fichiers
 
